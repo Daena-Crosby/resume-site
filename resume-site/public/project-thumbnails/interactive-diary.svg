@@ -1,0 +1,39 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fafafa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bgGrad4)"/>
+  
+  <!-- Diary/Journal Icon -->
+  <g transform="translate(400, 200)">
+    <!-- Book binding -->
+    <rect x="-120" y="-80" width="240" height="160" rx="4" fill="#f472b6" opacity="0.3"/>
+    <rect x="-115" y="-75" width="230" height="150" rx="3" fill="#ffffff" opacity="0.95"/>
+    
+    <!-- Spiral binding -->
+    <circle cx="-115" cy="-60" r="3" fill="#f472b6" opacity="0.6"/>
+    <circle cx="-115" cy="-30" r="3" fill="#f472b6" opacity="0.6"/>
+    <circle cx="-115" cy="0" r="3" fill="#f472b6" opacity="0.6"/>
+    <circle cx="-115" cy="30" r="3" fill="#f472b6" opacity="0.6"/>
+    <circle cx="-115" cy="60" r="3" fill="#f472b6" opacity="0.6"/>
+    
+    <!-- Diary lines -->
+    <line x1="-100" y1="-50" x2="100" y2="-50" stroke="#e0e0e0" stroke-width="1.5"/>
+    <line x1="-100" y1="-20" x2="100" y2="-20" stroke="#e0e0e0" stroke-width="1.5"/>
+    <line x1="-100" y1="10" x2="100" y2="10" stroke="#e0e0e0" stroke-width="1.5"/>
+    <line x1="-100" y1="40" x2="100" y2="40" stroke="#e0e0e0" stroke-width="1.5"/>
+    
+    <!-- Mood tags -->
+    <circle cx="80" cy="-50" r="12" fill="#f472b6" opacity="0.7"/>
+    <circle cx="80" cy="-20" r="12" fill="#60a5fa" opacity="0.7"/>
+    <circle cx="80" cy="10" r="12" fill="#34d399" opacity="0.7"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="150" cy="80" r="25" fill="#f472b6" opacity="0.2"/>
+  <circle cx="650" cy="320" r="30" fill="#60a5fa" opacity="0.2"/>
+</svg>
+

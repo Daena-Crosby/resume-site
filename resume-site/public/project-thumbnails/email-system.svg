@@ -1,0 +1,32 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fafafa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8e8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bgGrad3)"/>
+  
+  <!-- Email Icon -->
+  <g transform="translate(400, 150)">
+    <rect x="-100" y="-60" width="200" height="140" rx="8" fill="#60a5fa" opacity="0.2"/>
+    <rect x="-95" y="-55" width="190" height="130" rx="6" fill="#ffffff" opacity="0.95"/>
+    
+    <!-- Envelope flap -->
+    <path d="M -95 -55 L 0 -25 L 95 -55" stroke="#60a5fa" stroke-width="3" fill="#60a5fa" opacity="0.3"/>
+    
+    <!-- Email lines -->
+    <line x1="-80" y1="-20" x2="80" y2="-20" stroke="#60a5fa" stroke-width="2" opacity="0.4"/>
+    <line x1="-80" y1="0" x2="80" y2="0" stroke="#60a5fa" stroke-width="2" opacity="0.4"/>
+    <line x1="-80" y1="20" x2="60" y2="20" stroke="#60a5fa" stroke-width="2" opacity="0.4"/>
+    <line x1="-80" y1="40" x2="70" y2="40" stroke="#60a5fa" stroke-width="2" opacity="0.4"/>
+  </g>
+  
+  <!-- Notification badges -->
+  <circle cx="650" cy="100" r="20" fill="#f472b6" opacity="0.8"/>
+  <text x="650" y="107" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">3</text>
+  
+  <circle cx="150" cy="300" r="15" fill="#60a5fa" opacity="0.8"/>
+  <text x="150" y="307" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">5</text>
+</svg>
+
