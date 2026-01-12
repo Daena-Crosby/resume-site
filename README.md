@@ -1,6 +1,6 @@
 # 🌟 Daena Crosby – Portfolio Website  
 
-Welcome to my portfolio! This site is more than just a collection of projects — it’s a reflection of my journey as a **Frontend Web Developer & UI/UX Designer**. I built it to showcase not only my technical skills but also my design philosophy: clean, responsive, and user‑focused experiences that feel both modern and personal.  
+Welcome to my portfolio! This site is more than just a collection of projects; it’s a reflection of my journey as a **Frontend Web Developer & UI/UX Designer**. I built it to showcase not only my technical skills but also my design philosophy: clean, responsive, and user‑focused experiences that feel both modern and personal.  
 
 ---
 
