@@ -1,6 +1,6 @@
 import { ArrowDown, Github, Mail, Linkedin, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import daenaProfile from '@/assets/daena-profile.jpg';
+import daenaProfile from '@/assets/daena-profile.webp';
 
 const HeroSection = () => {
   return (
@@ -105,7 +105,9 @@ const HeroSection = () => {
                   src={daenaProfile}
                   alt="Daena Crosby - Frontend Developer and Designer"
                   className="h-full w-full object-cover object-top"
-                  loading="lazy"
+                  loading="eager"
+                  decoding="async"
+                  fetchPriority="high"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.style.display = 'none';
