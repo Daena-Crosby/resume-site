@@ -69,7 +69,8 @@ const ContactSection = () => {
       
       (e.target as HTMLFormElement).reset();
       setTimeout(() => setStatusMessage(''), 5000);
-    } catch (error: any) {
+    } catch (error) {
+      const errorMessage = error instanceof Error ? error.message : 'An unexpected error occurred';
       if (import.meta.env.DEV) {
         console.error('Contact form error:', error);
       }

@@ -1,4 +1,4 @@
-import { ArrowDown, Github, Mail, Linkedin, Download } from 'lucide-react';
+import { Github, Mail, Linkedin, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import daenaProfile from '@/assets/daena-profile.webp';
 
@@ -107,7 +107,6 @@ const HeroSection = () => {
                   className="h-full w-full object-cover object-top"
                   loading="eager"
                   decoding="async"
-                  fetchPriority="high"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.style.display = 'none';
